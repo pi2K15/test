@@ -1,0 +1,16 @@
+<container>
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/ucwkv/cwe_476/unsafe/cwe_476__none__no_filtering__Null Pointer__0_File1.cs" language="Csharp"> 
+			<flaw line="71" name ="CWE_476"/> 
+		</file> 
+
+	</testcase> 
+
+
+</container>

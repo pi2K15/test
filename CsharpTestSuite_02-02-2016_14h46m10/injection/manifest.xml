@@ -1,0 +1,884 @@
+<container>
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_78/unsafe/cwe_78__shell_commands__no_filtering__ls__0_File1.cs" language="Csharp"> 
+			<flaw line="82" name ="CWE_78"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_78/unsafe/cwe_78__readline__no_filtering__ls__0_File1.cs" language="Csharp"> 
+			<flaw line="70" name ="CWE_78"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_78/safe/cwe_78__hardcoded_string_input__no_filtering__ls__0_File1.cs" language="Csharp"> 
+			<flaw line="69" name ="CWE_78"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_78/safe/cwe_78__shell_commands__invalid_filenames_chars_semi-colon_path__ls__0_File1.cs" language="Csharp"> 
+			<flaw line="84" name ="CWE_78"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_78/safe/cwe_78__readline__invalid_filenames_chars_semi-colon_path__ls__0_File1.cs" language="Csharp"> 
+			<flaw line="72" name ="CWE_78"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_78/safe/cwe_78__hardcoded_string_input__invalid_filenames_chars_semi-colon_path__ls__0_File1.cs" language="Csharp"> 
+			<flaw line="71" name ="CWE_78"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__no_filtering__SQL-Injection__mysql__0_File1.cs" language="Csharp"> 
+			<flaw line="104" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__no_filtering__SQL-Injection__sql_server__0_File1.cs" language="Csharp"> 
+			<flaw line="101" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__no_filtering__SQL-Injection__postgre_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="97" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__no_filtering__SQL-Injection__sqlite__0_File1.cs" language="Csharp"> 
+			<flaw line="97" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__no_filtering__SQL-Injection__oracle_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="103" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__no_filtering__SQL-Injection__mysql__0_File1.cs" language="Csharp"> 
+			<flaw line="91" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__no_filtering__SQL-Injection__sql_server__0_File1.cs" language="Csharp"> 
+			<flaw line="88" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__no_filtering__SQL-Injection__postgre_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="84" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__no_filtering__SQL-Injection__sqlite__0_File1.cs" language="Csharp"> 
+			<flaw line="84" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__no_filtering__SQL-Injection__oracle_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="90" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__no_filtering__SQL-Injection__mysql__0_File1.cs" language="Csharp"> 
+			<flaw line="90" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__no_filtering__SQL-Injection__sql_server__0_File1.cs" language="Csharp"> 
+			<flaw line="87" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__no_filtering__SQL-Injection__postgre_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="83" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__no_filtering__SQL-Injection__sqlite__0_File1.cs" language="Csharp"> 
+			<flaw line="83" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__no_filtering__SQL-Injection__oracle_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="89" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__func_preg_match-only_numbers__SQL-Injection__mysql__0_File1.cs" language="Csharp"> 
+			<flaw line="109" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__func_preg_match-only_numbers__SQL-Injection__sql_server__0_File1.cs" language="Csharp"> 
+			<flaw line="106" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__func_preg_match-only_numbers__SQL-Injection__postgre_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="102" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__func_preg_match-only_numbers__SQL-Injection__sqlite__0_File1.cs" language="Csharp"> 
+			<flaw line="102" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__func_preg_match-only_numbers__SQL-Injection__oracle_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="108" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__func_preg_match-only_numbers__SQL-Injection__mysql__0_File1.cs" language="Csharp"> 
+			<flaw line="96" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__func_preg_match-only_numbers__SQL-Injection__sql_server__0_File1.cs" language="Csharp"> 
+			<flaw line="93" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__func_preg_match-only_numbers__SQL-Injection__postgre_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="89" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__func_preg_match-only_numbers__SQL-Injection__sqlite__0_File1.cs" language="Csharp"> 
+			<flaw line="89" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__func_preg_match-only_numbers__SQL-Injection__oracle_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="95" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__func_preg_match-only_numbers__SQL-Injection__mysql__0_File1.cs" language="Csharp"> 
+			<flaw line="95" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__func_preg_match-only_numbers__SQL-Injection__sql_server__0_File1.cs" language="Csharp"> 
+			<flaw line="92" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__func_preg_match-only_numbers__SQL-Injection__postgre_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="88" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__func_preg_match-only_numbers__SQL-Injection__sqlite__0_File1.cs" language="Csharp"> 
+			<flaw line="88" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__func_preg_match-only_numbers__SQL-Injection__oracle_sql__0_File1.cs" language="Csharp"> 
+			<flaw line="94" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__no_filtering__SQL_prepared__mysql_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="105" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__no_filtering__SQL_prepared__mysql_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="92" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__no_filtering__SQL_prepared__mysql_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="91" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__shell_commands__func_preg_match-only_numbers__SQL_prepared__mysql_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="110" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__readline__func_preg_match-only_numbers__SQL_prepared__mysql_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="97" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_89/safe/cwe_89__hardcoded_string_input__func_preg_match-only_numbers__SQL_prepared__mysql_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="96" name ="CWE_89"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__shell_commands__no_filtering__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="97" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__readline__no_filtering__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="84" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__hardcoded_string_input__no_filtering__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="83" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__shell_commands__func_preg_match-only_numbers__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="102" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__readline__func_preg_match-only_numbers__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="89" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__hardcoded_string_input__func_preg_match-only_numbers__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="88" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__shell_commands__invalids_ldap_char__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="123" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__readline__invalids_ldap_char__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="110" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_90/safe/cwe_90__hardcoded_string_input__invalids_ldap_char__ldap__ldap__0_File1.cs" language="Csharp"> 
+			<flaw line="109" name ="CWE_90"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__shell_commands__no_filtering__XPATH__xpath__0_File1.cs" language="Csharp"> 
+			<flaw line="93" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__readline__no_filtering__XPATH__xpath__0_File1.cs" language="Csharp"> 
+			<flaw line="80" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__hardcoded_string_input__no_filtering__XPATH__xpath__0_File1.cs" language="Csharp"> 
+			<flaw line="79" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__shell_commands__func_preg_match-only_numbers__XPATH__xpath__0_File1.cs" language="Csharp"> 
+			<flaw line="98" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__readline__func_preg_match-only_numbers__XPATH__xpath__0_File1.cs" language="Csharp"> 
+			<flaw line="85" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__hardcoded_string_input__func_preg_match-only_numbers__XPATH__xpath__0_File1.cs" language="Csharp"> 
+			<flaw line="84" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__shell_commands__no_filtering__XPATH_prepared__xpath_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="93" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__readline__no_filtering__XPATH_prepared__xpath_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="80" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__hardcoded_string_input__no_filtering__XPATH_prepared__xpath_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="79" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>/tmp/tainted.txt</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__shell_commands__func_preg_match-only_numbers__XPATH_prepared__xpath_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="98" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>get user input in tainted</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__readline__func_preg_match-only_numbers__XPATH_prepared__xpath_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="85" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+	<testcase> 
+		<meta-data> 
+			<author>Bertrand STIVALET, Aurelien DELAITRE</author> 
+			<date>02/02/16</date> 
+			<input>no input</input>
+		</meta-data> 
+ 
+		<file path="CsharpTestSuite_02-02-2016_14h46m10/injection/cwe_91/unsafe/cwe_91__hardcoded_string_input__func_preg_match-only_numbers__XPATH_prepared__xpath_prepared__0_File1.cs" language="Csharp"> 
+			<flaw line="84" name ="CWE_91"/> 
+		</file> 
+
+	</testcase> 
+
+
+</container>
